@@ -1,0 +1,163 @@
+%-------------------------
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Shubham Singh} & Email : \href{mailto:singhshu.iitk.ac.in}{singhshu@iitk.ac.in}\\
+  \href{http://home.iitk.ac.in/~singhshu}{home.iitk.ac.in/~singhshu} & Mobile : +91-9794842994 \\
+  \href{https://github.com/shubhsherl}{Github:shubhsherl}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Kanpur}{}
+      {Mathematics and Scientific Computing(B.S.);  CPI:9.2/10.0}{August, 2017 - Present}
+    \resumeSubheading
+      {J.T.Golden Jubilee School}{Allahabad(U.P.), India}
+      {Class XII Board Exams[CBSE]; 94.4\%}{March, 2017}
+    \resumeSubheading
+      {J.T.Golden Jubilee School}{Allahabad(U.P.), India}
+      {Class X Board Exams; 10CGPA}{March, 2015}
+  \resumeSubHeadingListEnd
+%-----------Awards&Achievements---------------
+\section{Awards and Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Academic Excellence Award}{IIT, Kanpur}
+      {For Exceptional performance in Freshman year.}{Jan, 2018}
+    \resumeSubheading
+      {JEE Advanced}{India}
+      {Secured AIR 1732 in JEE Advanced 2017 amongst 1.5 million candidates}{2017}
+    \resumeSubheading
+      {National Science Talent Search}{HRI, India}
+      {Secured $2^{nd}$ position in Mathematics.}{Jan, 2017}
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+ \resumeSubHeadingListStart
+
+  \resumeSubheading
+     {New York Office}{IIT, Kanpur}
+      {Intern, Prof.Manindra Agrawal}{May 2018 - July 2018}
+      \begin{itemize}
+          \item {Worked on a scalable Android app, designed in MVP(Model, View, Presenter) architecture.}
+          \item {Integrated Editor in app to allow rich text editing, with different source type, create and sync data with the server, save drafts and publishing attachments.}
+          \item {Created a detail fragment where user data can seen in brief, and can be redirected to to user’s page.}
+          \item {Improved UI/UX of the app by implementing features associated with menus, viewpagers, card views, preference layouts etc. adhering to Google’s Material Design guidelines.}
+          \item{Implemented linting and unit testing as part of development workflow.}
+      \end{itemize}
+%-----------Relevent Courses---------------
+\section{Relevent Courses}
+  \resumeSubHeadingListStart
+    \resumeSubItem{MTH101}
+      {Real Analysis and Calculus}
+    \resumeSubItem{MTH102}
+      {Linear Algebra and Ordinary Differential Equation}
+    \resumeSubItem{MTH302}
+      {Set Theory and Logic(**)}
+    \resumeSubItem{ESO207}
+      {Data Structure and Algorithm(**)}
+    \resumeSubItem{ESC101}
+      {Introduction to Computing(A*)}
+    
+    \hspace*{\fill}{(A*) Awarded an exceptional performance, (**) Ongoing Courses}  
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem {\href{https://github.com/shubhsherl/Phi-Man}{Phi-Game}}
+      {Dec 2016}
+      
+      { A Gaming software as a School project built completely in C++03, where  user can create account and play games, earn coins and unlock other games.}\\
+    \resumeSubItem
+    {\href{http://www.linuxfromscratch.org/lfs/}{Linux From Scratch}}
+      {Self Project}{Aug 2018}
+      
+      {Linux From Scratch (LFS) is a project that helps to build customized Linux System from scratch. }
+    \resumeSubHeadingListEnd
+
+%--------Position of Responsibility------------
+\section{Position of Responsibilty}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Counselling Service}{}
+      {ACADEMIC MENTOR to students of the Freshman year, helping and guiding them in their courses.}{Aug 2018-Present}
+    \resumeSubheading
+      {Web Executive}{Stamatics, IIT Kanpur}
+      {Maintain the WebSite of Stamatics group, Dept. of Mathematics and Statics.}{Sept 2018-Present}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
+
