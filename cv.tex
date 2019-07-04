@@ -1,0 +1,86 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo{./profile.png}
+\name{Shubham}{Singh}
+\position{Junior Undergraduate{\enskip\cdotp\enskip}Mathematics and Scientific Computing}
+\address{Indian Institute of Technology, Kanpur}
+
+\mobile{(+91) 9794842994}
+\email{singhshu@iitk.ac.in}
+\email{singhshu@iitk.ac.in}
+\homepage{shubhsherl.github.io}
+\github{shubhsherl}
+\linkedin{shubhsherl}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+% \quote{``Be the change that you want to see in the world."}
+
+\begin{document}
+\makecvheader
+\makecvfooter
+  {}
+  {}
+  {\thepage}
+
+\input{sections/education.tex}
+\input{sections/academic.tex}
+\input{sections/experience.tex}
+\input{sections/project.tex}
+\input{sections/coursework.tex}
+\input{sections/positions.tex}
+% \input{sections/skills.tex}
+\input{sections/misc.tex}
+% \input{sections/interests.tex}
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
