@@ -1,9 +1,20 @@
 \cvsection{Relevant Courses}
 
+\ifdefined\ONEPAGE
+
+\begin{tabular*}{\textwidth}{l l}
+  Introduction to Programming(A$*$) & Set Theory \& Logic &
+  Data Structures and Algorithms & Probability \& Statistics
+\end{tabular*}
+
+{\footnotesize
+    {A$*$: Grade for exceptional performance}
+}
+
+\else
 {\fontsize{11pt}{1em}\bodyfontlight\upshape\color{text}
-  \begin{tabular*}{\textwidth}{l l}
-    Introduction to Programming(A$*$)   & Set Theory \& Logic \\
-    Data Structures and Algorithms & Probability and Statistics
+  \begin{tabular*}{\textwidth}{l l 1 1}
+    Introduction to Programming(A$*$)   & Set Theory \& Logic & Data Structures and Algorithms & Probability and Statistics
   \end{tabular*}
 }
 {\fontsize{11pt}{1em}\footerfont\upshape\color{text}
@@ -11,8 +22,12 @@
     \entrylocationstyle{A$*$: Grade for exceptional performance}
   \end{tabular*}
 }
-\vspace{-0.5cm}
+% \vspace{-0.5cm}
+
+\fi
 
 %%% Local Variables:
 %%% mode: latex
+%%% TeX-engine: xetex
+%%% TeX-master: "../cv"
 %%% End:
